@@ -17,7 +17,6 @@ public class WydawanieReszty {
             sumaKasa += nominalyArr[j] / 100.0 * iloscArr[j];
         }
 
-
         System.out.println("W kasie jest: " + sumaKasa + "zł");
         System.out.println("Podaj resztę");
         System.out.println("Zł: ");
@@ -34,9 +33,8 @@ public class WydawanieReszty {
                     reszta = reszta - nominalyArr[i];
                     sumaArr[i]++;
                     iloscArr[i]--;
-                } else i++;
-
-
+                }
+                else i++;
             }
             System.out.println("zostalo: " + reszta);
             System.out.println("Wydano w sztukach:\n" +
